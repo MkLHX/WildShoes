@@ -9,13 +9,23 @@
 	height: auto;
 }
 .img-carousel{
+<<<<<<< HEAD
 	width: 800px;
 	height: 800px;
+=======
+	width: 1600px;
+	min-height: 950px;
+	max-height: 950px;
+>>>>>>> f2de70ebf208c0c1556632b4619cb1c20df149b7
 	margin-left: auto;
 	margin-right: auto;
 }
 body{
+<<<<<<< HEAD
 	*/background-color: rgb(0,35,65);
+=======
+	background-color: #D2691E;
+>>>>>>> f2de70ebf208c0c1556632b4619cb1c20df149b7
 }
 row{
 	margin: 15px;
@@ -24,6 +34,10 @@ row{
 	border: solid 2px;
 	margin: 10px;
 	padding: 10px;
+<<<<<<< HEAD
+=======
+	background-color: #DEB887
+>>>>>>> f2de70ebf208c0c1556632b4619cb1c20df149b7
 }
 button{
 	margin-left: auto;
@@ -31,3 +45,17 @@ button{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+.map {
+	float: right;
+}
+=======
+.navbar{
+	border: solid 2px;
+	background-color: #DEB887	;
+}
+>>>>>>> eeb558c73a6e34b6e57aea0e83f7768af5c98172
+>>>>>>> f2de70ebf208c0c1556632b4619cb1c20df149b7
