@@ -74,7 +74,7 @@
 		background-color: rgba(255,255,255,1);
 	}
 	.bp{
-		color: black;		
+		color: black;
 	}
 	#historique{
 		padding-top:40px;
@@ -100,14 +100,12 @@
 		padding:20px;
 
 	}
-<<<<<<< HEAD
 
 	h2 {
 		color: white;
 	}
-=======
+
 	#findUs .modal-content{
 		width: 450px;
 		height: 400px
 	}
->>>>>>> ae7c681a519b855e38d7f9cce20bbc852663b2a7
