@@ -76,27 +76,15 @@
 	.bp{
 		color: black;
 	}
-	#historique{
+	.paragraphe{
 		padding-top:40px;
-		height:950px;
-	}
-	#chaussespieds{
-		padding-top:40px;
-		height:950px;
-	}
-	#tiresbottes{
-		padding-top:40px;
-		height:950px;
-	}
-	#personalise{
-		padding-top:40px;
-		height:950px;
+		height:1000px;
 	}
 	#footer{
 		padding-top:150px;
-		height:950px;
+		height:1000px;
 	}
-	#contact .modal-content{
+	.popup .modal-content{
 		padding:20px;
 
 	}
