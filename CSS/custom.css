@@ -1,52 +1,66 @@
-.img-product{
+/*@media (min-width: @screen-sm-min) {
+.img-carousel{
+	width: 400px;
+	min-height: 200px;
+	max-height: 200px;
+}
+@media (min-width: @screen-md-min) {
+
+}
+
+@media (min-width: @screen-lg-min) { */
+	.img-carousel{
+		width: 1600px;
+		min-height: 950px;
+		max-height: 950px;
+	}
+	.img-product{
 	width: 220px;
 	height: 220px;
 	margin-left: auto;
 	margin-right: auto;
-}
-.logo{
-	width: 120px;
-	height: auto;
-}
-.img-carousel{
-	width: 1600px;
-	min-height: 950px;
-	max-height: 950px;
-	margin-left: auto;
-	margin-right: auto;
-}
-body{
-	background-color: #D2691E;
-}
-header{
-    background: maroon; /* For browsers that do not support gradients */    
-    background: -webkit-radial-gradient(white, white,maroon); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(white, white, maroon); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(white, white, maroon); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(white, white, maroon); /* Standard syntax (must be last) */
-}
-row{
-	margin: 15px;
-}
+	}
+	.logo{
+		width: 120px;
+		height: auto;
+	}
+	.img-carousel{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	body{
+		background-color: #D2691E;
+	}
+	header{
+	    background: maroon; /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(white, white,maroon); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(white, white, maroon); /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(white, white, maroon); /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(white, white, maroon); /* Standard syntax (must be last) */
+	}
+	row{
+		margin: 15px;
+	}
 
-.section{
-	border: solid 2px;
-	margin: 10px;
-	padding: 10px;
-	background-color: #DEB887
-}
-button{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
+	.section{
+		border: solid 2px;
+		margin: 10px;
+		padding: 10px;
+		background-color: #DEB887
+	}
+	button{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
 
-.map {
-	float: right;
-}
+	.map {
+		float: right;
+	}
 
-.navbar{
-	border: solid 2px;
-	background-color: #DEB887	;
-}
+	.navbar{
+		border: solid 2px;
+		background-color: #DEB887	;
+	}
+
