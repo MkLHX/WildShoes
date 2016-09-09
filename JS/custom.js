@@ -1,5 +1,5 @@
 $(function(){
-		$('nav').affix({
+	/*$('nav').affix({
 	      offset: {
 	        top: $('top').height()
 	      }
@@ -9,5 +9,11 @@ $(function(){
 	      offset: {
 	        top: 200
 	      }
-	});	
+	});*/
+	/*Animation scrolling vers une section*/
+	/*$("button").click(function() {
+	    $('html,body').animate({
+	        scrollTop: $(".second").offset().top},
+	        'slow');
+	});*/
 });
