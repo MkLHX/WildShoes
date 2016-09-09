@@ -29,7 +29,7 @@
 		margin-right: auto;
 	}
 	body{
-		background-image : url("img/backgroundheader.jpeg");
+		background-image : url("http://en.zimagez.com/full/49f358c9fe8124721c7dc60fb549e4251c4e7971f8ed9be7821798b352e894064c3c5f685b363e81a2a77d13a75082b00a5e0a02c472602d3187dd6f8c122b29.php");
 		background-repeat : no-repeat;
 		background-attachment : fixed;
 	}
@@ -38,29 +38,31 @@
 		background-repeat : no-repeat;
 		background-attachment : fixed;
 	}
+	a{
+		text-decoration: none;
+	}
+		button{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
 	.row{
 		margin: 15px;
 	}
-
 	.section{
 		border: solid 2px;
 		margin: 10px;
 		padding: 10px;
 		background-color: #DEB887
 	}
-	button{
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
-
 	.map {
 		float: right;
 	}
 
 	.navbar{
-		border: solid 2px;
-		background-color: #DEB887	;
+		background-color: transparent;
 	}
+
+
 
