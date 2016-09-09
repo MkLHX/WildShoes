@@ -1,4 +1,25 @@
 $(function(){
+<<<<<<< HEAD
+	$('nav').affix({
+      offset: {
+        top: $('top').height()
+      }
+});	
+
+$('#content').affix({
+      offset: {
+        top: 200
+      }
+});	
+});
+
+
+
+
+
+
+
+=======
 	/*$(window).scroll(function(){
 		scrollPosition = $(window).scrollTop();
 	});
@@ -28,3 +49,4 @@ $(function(){
 		}, 1000);
 	});*/
 });
+>>>>>>> f2de70ebf208c0c1556632b4619cb1c20df149b7
