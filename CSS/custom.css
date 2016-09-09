@@ -29,16 +29,16 @@
 		margin-right: auto;
 	}
 	body{
-		background-color: #D2691E;
+		background-image : url("img/backgroundheader.jpeg");
+		background-repeat : no-repeat;
+		background-attachment : fixed;
 	}
 	header{
-	    background: maroon; /* For browsers that do not support gradients */    
-	    background: -webkit-radial-gradient(white, white,maroon); /* Safari 5.1 to 6.0 */
-	    background: -o-radial-gradient(white, white, maroon); /* For Opera 11.6 to 12.0 */
-	    background: -moz-radial-gradient(white, white, maroon); /* For Firefox 3.6 to 15 */
-	    background: radial-gradient(white, white, maroon); /* Standard syntax (must be last) */
+	    background-image : url("img/backgroundheader.jpeg");
+		background-repeat : no-repeat;
+		background-attachment : fixed;
 	}
-	row{
+	.row{
 		margin: 15px;
 	}
 
