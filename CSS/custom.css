@@ -1,100 +1,93 @@
-/*@media (min-width: @screen-sm-min) {
+body{
+	background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909050157760249.jpg");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+}
+header{
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+button{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
+h2{
+	color: white;
+}
+p{
+	color: white;
+}
 .img-carousel{
-	width: 400px;
-	min-height: 200px;
-	max-height: 200px;
+	width: 1600px;
+	min-height: 300px;*/
+	max-height: 950px;
+	margin-left: auto;
+	margin-right: auto;
 }
-@media (min-width: @screen-md-min) {
+.img-product{
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.img-detail{
+	width: 600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.logo{
+	width: 120px;
+	height: auto;
+}
+.row{
+	margin: 15px;
+}
+.section{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 10px;
+	width:400px;
+	height:600px;
+	background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909060807254055.jpg");
+}
+.map {
+	float: right;
+}
+.navbar{
+	background-color: rgba(255,255,255,1);
+}
+.bp{
+	color: black;
+}
+.paragraphe{
+	padding-top:40px;
+	height:1000px;
+}
+#footer{
+	padding-top:80px;
+	height:1000px;
+}
+#footer img{
+	width: 300px;
+	height: 300px
+}
+.popup .modal-content{
+	padding:20px;
 
 }
-
-@media (min-width: @screen-lg-min) { */
-	body{
-		background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909050157760249.jpg");
-		background-repeat : no-repeat;
-		background-attachment : fixed;
-	}
-	header{
-
-	}
-	a{
-		color: white;
-		text-decoration: none;
-	}
-	button{
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 50px;
-		margin-bottom: 5px;
-	}
-	h2{
-		color: white;
-	}
-	p{
-		color: white;
-	}
-	.img-carousel{
-		width: 1600px;
-		min-height: 950px;
-		max-height: 950px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.img-product{
-		width: 300px;
-		height: 300px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	.img-detail{
-		width: 600px;
-		height: 600px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	.logo{
-		width: 120px;
-		height: auto;
-	}
-	.row{
-		margin: 15px;
-	}
-	.section{
-		margin: 10px;
-		padding: 10px;
-		background-color: #DEB887;
-		width:400px;
-		height:600px;
-		background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909060807254055.jpg");
-	}
-	.map {
-		float: right;
-		width: 400px;
-		height: 400px;
-	}
-	.navbar{
-		background-color: rgba(255,255,255,1);
-	}
-	.bp{
-		color: black;
-	}
-	.paragraphe{
-		padding-top:40px;
-		height:1000px;
-	}
-	#footer{
-		padding-top:150px;
-		height:1000px;
-	}
-	.popup .modal-content{
-		padding:20px;
-
-	}
-	#findUs .modal-content{
-		width: 450px;
-		height: 400px
-	}
+#findUs .modal-content{
+	width: 450px;
+	height: 400px
+}

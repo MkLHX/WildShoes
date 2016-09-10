@@ -1,5 +1,11 @@
 $(function(){
 	/*##### Animation scrolling vers une section ####*/
+	/*Navigation vers rubrique accueil*/
+	$("#bpaccueil").click(function() {
+	    $('html,body').animate({
+	        scrollTop: $("header").offset().top},
+	        'slow');
+	});
 	/*Navigation vers rubrique historique*/
 	$("#bphistorique").click(function() {
 	    $('html,body').animate({
