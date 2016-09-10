@@ -37,6 +37,8 @@
 		width: 1600px;
 		min-height: 950px;
 		max-height: 950px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.img-product{
 		width: 300px;
@@ -46,13 +48,17 @@
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
+	.img-detail{
+		width: 600px;
+		height: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 	.logo{
 		width: 120px;
 		height: auto;
-	}
-	.img-carousel{
-		margin-left: auto;
-		margin-right: auto;
 	}
 	.row{
 		margin: 15px;
@@ -67,8 +73,8 @@
 	}
 	.map {
 		float: right;
-		width: 250px;
-		height: 250px;
+		width: 400px;
+		height: 400px;
 	}
 	.navbar{
 		background-color: rgba(255,255,255,1);
@@ -88,11 +94,6 @@
 		padding:20px;
 
 	}
-
-	h2 {
-		color: white;
-	}
-
 	#findUs .modal-content{
 		width: 450px;
 		height: 400px
