@@ -21,7 +21,9 @@ button{
 }
 h2{
 	color: white;
+	border-bottom: solid 1px;
 }
+
 p{
 	color: white;
 }
@@ -29,7 +31,7 @@ p{
 /*######## class selectors ########*/
 /**/
 .img-carousel{
-	width: 1600px;
+	min-width: 100%;
 	max-height: 860px;
 	margin-left: auto;
 	margin-right: auto;
@@ -54,9 +56,6 @@ p{
 	width: 120px;
 	height: auto;
 }
-.row{
-	margin: 15px;
-}
 .section{
 	padding: 10px;
 	background-color: rgba(255,255,255,0.2);
@@ -72,6 +71,7 @@ p{
 	color: black;
 }
 .paragraphe{
+	margin: 15px;
 	padding-top:40px;
 	height:1000px;
 }
