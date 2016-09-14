@@ -1,3 +1,6 @@
+/**/
+/*######## tags selectors ########*/
+/**/
 body{
 	background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909050157760249.jpg");
 	background-repeat : no-repeat;
@@ -22,10 +25,12 @@ h2{
 p{
 	color: white;
 }
+/**/
+/*######## class selectors ########*/
+/**/
 .img-carousel{
 	width: 1600px;
-	min-height: 300px;*/
-	max-height: 950px;
+	max-height: 860px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -53,14 +58,10 @@ p{
 	margin: 15px;
 }
 .section{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
-	margin-left: 5px;
 	padding: 10px;
-	width:400px;
-	height:600px;
-	background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909060807254055.jpg");
+	/*background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909060807254055.jpg");*/
+	background-color: rgba(255,255,255,0.2);
+	border: solid 1px;
 }
 .map {
 	float: right;
@@ -75,6 +76,23 @@ p{
 	padding-top:40px;
 	height:1000px;
 }
+.alignArticle{
+	/*padding-left: 65px;*/
+}
+
+.popup .modal-content{
+	padding:20px;
+}
+.modal-content p{
+	color: black;
+}
+/**/
+/*######## ID selectors ########*/
+/**/
+#findUs .modal-content{
+	width: 450px;
+	height: 400px
+}
 #footer{
 	padding-top:80px;
 	height:1000px;
@@ -82,12 +100,4 @@ p{
 #footer img{
 	width: 300px;
 	height: 300px
-}
-.popup .modal-content{
-	padding:20px;
-
-}
-#findUs .modal-content{
-	width: 450px;
-	height: 400px
 }
