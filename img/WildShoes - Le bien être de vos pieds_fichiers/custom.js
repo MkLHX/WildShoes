@@ -47,7 +47,4 @@ $(function(){
 		$(this).attr('href', 'mailto:contact@wildshoes.com?body='+body+'%0D%0AMerci de me répondre à l\'adresse suivante : '+email);
 		$('#contact').modal('toggle');
 	})
-	$('.easterEgg').mouseover(function(){
-		$(this).show();
-	});
 });

@@ -13,17 +13,24 @@ a{
 	color: white;
 	text-decoration: none;
 }
+button{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
 h2{
 	color: white;
 	border-bottom: solid 1px;
 	margin-bottom: 30px;
 }
+h2 p{
+	margin-top: 30px;
+	margin-bottom: 30px;	
+}
+
 p{
 	color: white;
-	line-height: 2;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	font-size: 15px;
 }
 footer label{
 	color: white;
@@ -71,9 +78,8 @@ footer ul {
 	cursor: pointer;
 }
 .map {
-	width: 100%;
+	width: 450px;
 	height: 450px;
-	padding-top: 20px;
 }
 .navbar{
 	background-color: rgba(255,255,255,1);
@@ -104,12 +110,6 @@ footer ul {
 .right-img{
 	float: right;
 }
-.histoTab{
-	padding: 30px;
-	background-color: rgba(255,255,255,0.2);
-	border: solid 1px;
-	height: 600px;
-}
 .footerPanel{
 	padding: 30px;
 	background-color: rgba(255,255,255,0.2);
@@ -117,14 +117,8 @@ footer ul {
 	margin-top: 50px;
 	height: 400px;
 }
-.footerTab a{
-	font-size: 20px;
-}
 .footerTab > li:last-child{
     float:right;
-}
-.navFooter{
-	margin:15px;
 }
 /**/
 /*######## ID selectors ########*/
