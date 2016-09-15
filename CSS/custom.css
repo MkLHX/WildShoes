@@ -19,9 +19,8 @@ h2{
 }
 p{
 	color: white;
-	line-height: 2;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	line-height: 1.5em;
+	padding: 15px;
 	font-size: 15px;
 }
 footer label{
@@ -31,6 +30,9 @@ footer label{
 }
 footer ul {
 	padding: 25px;
+}
+blockquote{
+	margin-left: 35px;
 }
 /**/
 /*######## class selectors ########*/
@@ -107,13 +109,17 @@ footer ul {
 }
 .left-img{
 	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
 }
 .right-img{
 	float: right;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 .histoTab{
 	padding: 30px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.3);
 	border: solid 1px;
 	height: 600px;
 }
@@ -134,7 +140,7 @@ footer ul {
 	margin:15px;
 }
 .hist{
-	float: right;
+	padding: 0px;
 }
 /**/
 /*######## ID selectors ########*/
