@@ -13,12 +13,6 @@ a{
 	color: white;
 	text-decoration: none;
 }
-button{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	margin-bottom: 5px;
-}
 h2{
 	color: white;
 	border-bottom: solid 1px;
@@ -31,6 +25,16 @@ h2 p{
 
 p{
 	color: white;
+	line-height: 2;
+	margin-bottom: 30px;
+}
+footer label{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer ul {
+	/*font-size: 20px;*/
 }
 /**/
 /*######## class selectors ########*/
@@ -66,8 +70,13 @@ p{
 	background-color: rgba(255,255,255,0.2);
 	border: solid 1px;
 }
+.section img{
+	cursor: pointer;
+}
 .map {
-	float: right;
+	width: 100%;
+	height: 450px;
+	padding-top: 20px;
 }
 .navbar{
 	background-color: rgba(255,255,255,1);
@@ -80,10 +89,6 @@ p{
 	padding-top:40px;
 	height:1000px;
 }
-.alignArticle{
-	/*padding-left: 65px;*/
-}
-
 .popup .modal-content{
 	padding:20px;
 }
@@ -102,6 +107,25 @@ p{
 .right-img{
 	float: right;
 }
+.histoTab{
+	padding: 30px;
+	background-color: rgba(255,255,255,0.2);
+	border: solid 1px;
+	height: 600px;
+}
+.footerPanel{
+	padding: 30px;
+	background-color: rgba(255,255,255,0.2);
+	border: solid 1px;
+	margin-top: 50px;
+	height: 400px;
+}
+.footerTab > li:last-child{
+    float:right;
+}
+.navFooter{
+	margin:15px;
+}
 /**/
 /*######## ID selectors ########*/
 /**/
@@ -116,4 +140,8 @@ p{
 #footer img{
 	width: 300px;
 	height: 300px
+}
+#geekerie h1{
+	margin-top: 0px;
+	color: white;
 }

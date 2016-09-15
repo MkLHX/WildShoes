@@ -12,9 +12,9 @@
 	<title>WildShoes - Le bien être de vos pieds</title>
 </head>
 <body>
-	<!------------------------------------------Menu and Slide-------------------------------------------->
+	<!--##########################################Menu and Slide##########################################-->
 	<header>
-		<!------------------------------------------Navbar-------------------------------------------->
+		<!--##########################################Navbar##########################################-->
 		<div class="container-fluid">
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container-fluid">
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</nav>
-			<!------------------------------------------Carousel-------------------------------------------->
+			<!--##########################################Carousel##########################################-->
 			<div class="row">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -79,9 +79,9 @@
 			</div>
 		</div>
 	</header>
-	<!------------------------------------------Content-------------------------------------------->
+	<!--##########################################Content##########################################-->
 		<div class="container-fluid">
-			<!------------------------------------------Story-------------------------------------------->
+			<!--##########################################Story##########################################-->
 			<div id="historique" class="row paragraphe">
 				<div class="col-lg-12 alignArticle">
 					<h2>Notre Histoire</h2>
@@ -95,7 +95,7 @@
  						<li id="li2016" ><a href="#2016" data-toggle="tab"> Ann&eacute;e 2016</a></li>
 					</ul>
 					<div class="tab-content chrono-content">
-						<div id="1927" class="tab-pane active">
+						<div id="1927" class="tab-pane active fade in histoTab">
 							<div class="left-img">
 		  						<img class="img-responsive" src="img/usine ok.jpg" alt="artisant cordonnier" />
 		  					</div>
@@ -104,7 +104,7 @@
 								Fabrication de chauss pied </p>
 							</div>
 		  				</div>
-		  				<div id="1955" class="tab-pane">
+		  				<div id="1955" class="tab-pane fade histoTab">
 		  					<div class="right-img">
 		  						<img class="img-responsive" src="img/1955 ok.jpg" />
 		  					</div>
@@ -112,7 +112,7 @@
 								<p> Fabrication de Tire bottes </p>
 							</div>
 						</div>
-						<div id="2000" class="tab-pane">
+						<div id="2000" class="tab-pane fade histoTab">
 							<div class="left-img">
 		  						<img class="img-responsive" src="img/2000 ok.jpg" />
 		  					</div>
@@ -120,7 +120,7 @@
 								<p> Lancement de la personnalisation d'accessoires chauss pied et tire bottes </p>
 							</div>
 						</div>
-						<div id="2016" class="tab-pane">
+						<div id="2016" class="tab-pane fade histoTab">
 							<div class="right-img">
 								<img class="img-responsive" src="img/2016  ok.jpg" />
 							</div>
@@ -131,7 +131,7 @@
 					</div>
 				</div>
   			</div>
-			<!------------------------------------------Chausses pieds-------------------------------------------->
+			<!--##########################################Chausses pieds##########################################-->
 			<div id="chaussespieds" class="row paragraphe">
 				<div class="col-xs-12 alignArticle">
 					<h2>Nos Chausses Pieds</h2>
@@ -191,7 +191,7 @@
 					</div>
 				</div>
 			</div>
-			<!------------------------------------------Tires Bottes-------------------------------------------->
+			<!--##########################################Tires Bottes##########################################-->
 			<div id="tiresbottes" class="row paragraphe">
 				<div class="col-xs-12 alignArticle">
 					<h2>Nos Tires Bottes</h2>
@@ -251,7 +251,7 @@
 					</div>
 				</div>
 			</div>
-			<!------------------------------------------Personnalisés-------------------------------------------->
+			<!--##########################################Personnalisés##########################################-->
 			<div id ="personalise" class="row paragraphe">
 				<div class="col-xs-12 alignArticle">
 					<h2>Les Personnalisés</h2>
@@ -312,32 +312,41 @@
 				</div>
 			</div>
 		</div>
-	<!------------------------------------------Find Us-------------------------------------------->
+	<!--##########################################Find Us##########################################-->
 	<footer id="footer" class="row paragraphe">
-		<!------------------------------------------Navbar Footer-------------------------------------------->
-		<div>
-			<ul class="nav nav-tabs">
-				<li><a href="#" data-toggle="modal" data-target="#apropos">A Propos</a></li>
-				<li><a href="#" data-toggle="modal" data-target="#contact">Contact</a></li>
-				<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-				<li><a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-				<li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		<!--##########################################Navbar Footer##########################################-->
+		<div class="row navFooter">
+			<ul class="nav nav-tabs footerTab" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#" data-toggle="tab" data-target="#contact" role="tab" aria-controls="contact" class="active ">Contact</a>
+				</li>
+				<li role="presentation">
+					<a href="#" data-toggle="tab" data-target="#apropos" role="tab" aria-controls="apropos" class="">Mentions légales</a>
+				</li>
+				<li role="presentation">
+					<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+				</li>
+				<li role="presentation">
+					<a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+				</li>
+				<li role="presentation">
+					<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+				</li>
+				<li role="presentation">
+					<a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
+				</li>
+				<li role="presentation">
+					<a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				</li>
+				<li role="presentation">
+					<a href="#" data-toggle="tab" data-target="#geekerie" role="tab" aria-controls="geekerie" class="easterEgg"><i class="fa fa-question fa-2x" aria-hidden="true"></i></a>
+				</li>
 			</ul>
 		</div>
-		<!------------------------------------------Map Localisation-------------------------------------------->
-		<div class="col-lg-offset-8">
-			<iframe class="map" width="500" height="400" frameborder="0" scrolling="no" marginheight="10" marginwidth="10" src="http://www.openstreetmap.org/export/embed.html?bbox=1.8905335664749146%2C47.89213273026032%2C1.8994921445846558%2C47.89540229561906&amp;layer=mapnik&amp;marker=47.89376574030428%2C1.8950128555297852" style="border: 1px solid black">
-			</iframe>
-		</div>
-		<div class="col-lg-offset-8 text-center">
-			<a class="map" href="http://www.openstreetmap.org/?mlat=47.89377&amp;mlon=1.89501#map=18/47.89377/1.89501" target="_blank">Afficher une carte plus grande</a>
-		</div>
-		<!------------------------------------------PopUp Modal contact-------------------------------------------->
-		<div id="contact" class="modal fade popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
+		<div class="row">
+			<div class="tab-content col-xs-12 col-lg-8">
+				<!--##########################################Panel contact##########################################-->
+				<div id="contact" role="tabpanel" class="tab-pane fade in active footerPanel">
 					<form>
 						<div class="form-group">
 						    <label for="exampleInputEmail1">Votre adresse Email</label>
@@ -348,28 +357,29 @@
 						    <textarea id="emailContent" class="form-control" rows=5 cols=40 placeholder="Message"></textarea>
 						</div>
 						<a id="submitEmail" class="btn btn-default">Envoyer</a>
-						<a href="#" data-toggle="modal" data-target="#geekerie">Clique ici</a>
 					</form>
 				</div>
-		  	</div>
-		</div>
-		<!------------------------------------------PopUp Modal a propos-------------------------------------------->
-		<div id="apropos" class="modal fade popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
+				<!--##########################################Panel a propos##########################################-->
+				<div id="apropos" role="tabpanel" class="tab-pane fade footerPanel">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui placeat animi, blanditiis laboriosam, sint doloribus nemo amet nesciunt minima sequi, exercitationem voluptatibus inventore voluptatum beatae! Delectus sequi impedit deserunt neque!
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nesciunt asperiores unde modi reprehenderit amet eaque quaerat, dolorum mollitia libero velit error perferendis soluta, pariatur aliquid maiores ut sapiente nulla.
 					</p>
 				</div>
-		  	</div>
-		</div>
-		<!------------------------------------------PopUp Modal easter egg-------------------------------------------->
-		<div id="geekerie" class="modal fade popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content text-center">
+				<!--##########################################Panel easter egg##########################################-->
+				<div id="geekerie" role="tabpanel" class="tab-pane fade footerPanel text-center">
 					<h1>easter egg guy!!!!</h1>
 					<img src="http://i1055.photobucket.com/albums/s517/Ciajka/tumblr_m3i9xgOl6x1qmdlj7.gif">
 				</div>
+			</div>
+			<!--##########################################Map Localisation##########################################-->
+			<div class="col-xs-12 col-lg-4">
+				<iframe class="map" frameborder="0" scrolling="no" marginheight="10" marginwidth="10" src="http://www.openstreetmap.org/export/embed.html?bbox=1.8905335664749146%2C47.89213273026032%2C1.8994921445846558%2C47.89540229561906&amp;layer=mapnik&amp;marker=47.89376574030428%2C1.8950128555297852">
+				</iframe>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-offset-8">
+				<a class="map" href="http://www.openstreetmap.org/?mlat=47.89377&amp;mlon=1.89501#map=18/47.89377/1.89501" target="_blank">Afficher une carte plus grande</a>
 			</div>
 		</div>
 	</footer>
