@@ -1,7 +1,7 @@
 $(function(){
 	/*##### Animation scrolling vers une section ####*/
 	/*Navigation to accueil*/
-	$('#bpaccueil').click(function() {
+	$('#bpaccueil, #bpbrand').click(function() {
 	    $('html,body').animate({
 	        scrollTop: $('header').offset().top},
 	        'slow');
@@ -49,5 +49,18 @@ $(function(){
 	})
 	$('.easterEgg').mouseover(function(){
 		$(this).show();
+	});
+	var toto = $(window).scrollTop();
+	if (toto > 910) {
+		$("nav").removeClass("navbarClear");
+	}
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+	    if (scroll > 910) {
+	        $("nav").removeClass("navbarClear");
+	    } 
+	    else {
+	        $("nav").addClass("navbarClear");
+	    }
 	});
 });
