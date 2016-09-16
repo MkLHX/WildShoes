@@ -50,17 +50,35 @@ $(function(){
 	$('.easterEgg').mouseover(function(){
 		$(this).show();
 	});
-	var toto = $(window).scrollTop();
-	if (toto > 910) {
-		$("nav").removeClass("navbarClear");
+	if ($(window).width() < 1300) {
+	   var scrollStart = $(window).scrollTop();
+		if (scrollStart > 400) {
+			$("nav").removeClass("navbarClear");
+		}
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
+		    if (scroll > 400) {
+		        $("nav").removeClass("navbarClear");
+		    } 
+		    else {
+		        $("nav").addClass("navbarClear");
+		    }
+		});
 	}
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-	    if (scroll > 910) {
-	        $("nav").removeClass("navbarClear");
-	    } 
-	    else {
-	        $("nav").addClass("navbarClear");
-	    }
-	});
+	else {
+		var scrollStart = $(window).scrollTop();
+		if (scrollStart > 910) {
+			$("nav").removeClass("navbarClear");
+		}
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
+		    if (scroll > 910) {
+		        $("nav").removeClass("navbarClear");
+		    } 
+		    else {
+		        $("nav").addClass("navbarClear");
+		    }
+		});
+	}
+	
 });
