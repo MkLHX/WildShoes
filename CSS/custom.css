@@ -13,25 +13,36 @@ a{
 h2{
 	color: white;
 	border-bottom: solid 1px;
+	padding-bottom: 30px;
 	margin-bottom: 30px;
-	font-family: diplomata;
-	font-size: 3.8em;
+	font-family: 'Alegreya', verdana;
+	font-size: 3.1em;
+}
+h3{
+	font-family: 'Alegreya', verdana;
+	color: white;
 }
 p{
 	color: white;
 	line-height: 1.5em;
 	padding: 15px;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: verdana;
 }
 footer label{
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
 }
+footer a{
+	padding: 15px;
+}
 footer ul {
 	padding: 25px;
 }
 blockquote{
+	color:white;
+	font-style: italic;
 	margin-left: 35px;
 }
 /**/
@@ -87,17 +98,13 @@ blockquote{
 	color: black;
 	margin-top: 17px;
 	font-size: 1.2em;
-	font-family: carrois;
+	font-family: 'Alegreya', verdana;
+	font-size: 25px;
 	font-weight: bold;
-	text-shadow:
-		white 1px 1px,
-		white -1px 1px,
-		white -1px -1px,
-		white 1px -1px;
 }
 .paragraphe{
 	margin: 15px;
-	padding-top:40px;
+	padding-top:60px;
 	min-height:1000px;
 }
 .popup .modal-content{
@@ -107,7 +114,7 @@ blockquote{
 	color: black;
 }
 .chrono{
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .chrono-content{
 	margin-top: 20px;
@@ -126,14 +133,14 @@ blockquote{
 	padding: 30px;
 	background-color: rgba(255,255,255,0.3);
 	border: solid 1px;
-	/*height: 600px;*/
+	min-height: 600px;
 }
 .footerPanel{
 	padding: 30px;
 	background-color: rgba(255,255,255,0.2);
 	border: solid 1px;
 	margin-top: 50px;
-	height: 400px;
+	min-height: 400px;
 }
 .footerTab a{
 	font-size: 20px;
@@ -167,7 +174,6 @@ blockquote{
 	color: white;
 }
 .navbar-brand{
-	height: 60px !important;
+	height: 70px !important;
 	background-color: rgba(255,255,255,0.8);
 }
-
