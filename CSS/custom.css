@@ -166,3 +166,8 @@ blockquote{
 	margin-top: 0px;
 	color: white;
 }
+.navbar-brand{
+	height: 60px !important;
+	background-color: rgba(255,255,255,0.8);
+}
+
