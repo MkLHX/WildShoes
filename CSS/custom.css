@@ -98,7 +98,7 @@ blockquote{
 .paragraphe{
 	margin: 15px;
 	padding-top:40px;
-	height:1000px;
+	/*height:1000px;*/
 }
 .popup .modal-content{
 	padding:20px;
@@ -126,7 +126,7 @@ blockquote{
 	padding: 30px;
 	background-color: rgba(255,255,255,0.3);
 	border: solid 1px;
-	height: 600px;
+	/*height: 600px;*/
 }
 .footerPanel{
 	padding: 30px;
