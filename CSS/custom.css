@@ -14,7 +14,7 @@ h2{
 	color: white;
 	border-bottom: solid 1px;
 	margin-bottom: 30px;
-	font-family: diplomata;
+	font-family: 'diplomata';
 	font-size: 3.8em;
 }
 p{
@@ -87,7 +87,7 @@ blockquote{
 	color: black;
 	margin-top: 17px;
 	font-size: 1.2em;
-	font-family: carrois;
+	font-family: 'carrois';
 	font-weight: bold;
 	text-shadow:
 		white 1px 1px,
